@@ -1,3 +1,5 @@
+<p align="center">
+  <img alt="Expense" width="700" src="https://i.postimg.cc/2S7YbTh4/istockphoto-1475355603-612x612.jpg"> </p>
 
 # Expense Tracker 
 
@@ -129,6 +131,8 @@ You have successfully cloned this project, you can go ahead and make changes
 
 
 ## How to run the code 
-
+Running this code is easy peasy, here are the steps
+- Navigate to the file folder in git by using the cd command
+- Open the file from the folder 
 
 
