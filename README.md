@@ -1,3 +1,4 @@
+
 # AltSchool-Project
 This showcases the first-semester project for the AltSchool Africa Data Engineering class of 2023 project.
 
@@ -113,30 +114,22 @@ def to_dict(self):
 Cloning is a way to create a copy of a repository on your local computer or a remote virtual machine.
 This allows you to work with the entire repository, including all the files, branches and commits. You can then push your changes to the remote repository, or pull other people’s changes from the remote repository. However, you cannot contribute to the original repository unless you are a collaborator or you create a pull request.
 
-- Above the list of files, click  <Code> 
+- Above the list of files, click < Code > 
+- Copy the URL for [this repository](https://github.com/IkeoluwaB/AltSchool-Project.git)
+- Open Git Bash on your computer, ( I am assuming you have Git installed on your laptop, if not go ahead and install [Git](https://git-scm.com/downloads) 
+- Change the current working directory to the location where you want the cloned directory.
+- Type git clone, and then paste the URL you copied earlier.
 
-- Copy the URL for the repository.
+```
+ $ git clone https://github.com/IkeoluwaB/AltSchool-Project.git
+```
+- Press Enter to create your local clone.
+  
+*Viola!*
+You have successfully cloned this project, you can go ahead and make changes 
 
-To clone the repository using HTTPS, under "HTTPS", click .
 
-To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click .
+## How to run the code 
 
-To clone a repository using GitHub CLI, click GitHub CLI, then click .
 
-Screenshot of the "Code" dropdown menu. To the right of the HTTPS URL for the repository, a copy icon is outlined in dark orange.
 
-Open Git Bash.
-
-Change the current working directory to the location where you want the cloned directory.
-
-Type git clone, and then paste the URL you copied earlier.
-
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-Press Enter to create your local clone.
-
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `Spoon-Knife`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
