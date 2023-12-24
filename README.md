@@ -115,15 +115,22 @@ def to_dict(self):
 Cloning is a way to create a copy of a repository on your local computer or a remote virtual machine.
 This allows you to work with the entire repository, including all the files, branches and commits. You can then push your changes to the remote repository, or pull other people’s changes from the remote repository. However, you cannot contribute to the original repository unless you are a collaborator or you create a pull request.
 
-- Above the list of files, click < Code > 
-- Copy the URL for [this repository](https://github.com/IkeoluwaB/AltSchool-Project.git)
-- Open Git Bash on your computer, ( I am assuming you have Git installed on your laptop, if not go ahead and install [Git](https://git-scm.com/downloads) 
+- Above the list of files, Click on the “<> Code ” button 
+<p align="left">
+  <img alt="Expense" width="500" src="https://i.postimg.cc/dtpqG3LB/project-screenshoot.jpg"> </p>
+  
+- Copy the URL under HTTPS. for [this repository](https://github.com/IkeoluwaB/AltSchool-Project.git)
+  
+- Open Git Bash on your computer, ( I am assuming you have Git installed on your laptop, if not go ahead and install [Git](https://git-scm.com/downloads)  or Open VsCode and press “ Ctrl+` ” on your keyboard to open the terminal.
+  
 - Change the current working directory to the location where you want the cloned directory.
+  
 - Type git clone, and then paste the URL you copied earlier.
 
 ```
  $ git clone https://github.com/IkeoluwaB/AltSchool-Project.git
 ```
+
 - Press Enter to create your local clone.
   
 *Viola!*
@@ -132,7 +139,26 @@ You have successfully cloned this project, you can go ahead and make changes
 
 ## How to run the code 
 Running this code is easy peasy, here are the steps
-- Navigate to the file folder in git by using the cd command
-- Open the file from the folder 
+- Navigate to the file folder or directory
+
+```
+cd (name of the folder)
+````
+
+- Run the name of the file
+
+```
+cd (name of file)
+```
+
+- Run this line of code 
+  
+```
+   Python (name of file)
+````
+
+  If this does not return any error message, then the codes work perfectly fine.
+
+  
 
 
