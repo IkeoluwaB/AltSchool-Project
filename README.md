@@ -1,6 +1,5 @@
 
-# AltSchool-Project
-This showcases the first-semester project for the AltSchool Africa Data Engineering class of 2023 project.
+# Expense Tracker 
 
 The task includes implementing two classes, Expense and ExpenseDatabase, to model and manage financial expenses.
 
