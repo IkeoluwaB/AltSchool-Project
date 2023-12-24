@@ -154,7 +154,7 @@ cd (name of file)
 - Run this line of code 
   
 ```
-   Python (name of file)
+Python name of script.py
 ````
 
   If this does not return any error message, then the codes work perfectly fine.
